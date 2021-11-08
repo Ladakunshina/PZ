@@ -12,7 +12,7 @@ public:
  elem = elemParameter;
     }
     
-    int* array = (int*) malloc (elem * 
+    int* array = (int*) malloc (elem * sizeof(int));
     int* ptr = array;
 
      () 
